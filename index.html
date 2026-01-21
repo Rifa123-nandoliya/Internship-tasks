@@ -4,106 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>myportfolio</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <header align="center">
-    <h1><font color="darkblue"><i>Welcome to Rifa's Portfolio</i></font></h1>
-    <hr width="60%" color="darkblue">
-    <nav>
-        <font size="4">
-            <a href="#about">About</a> |
-            <a href="#skills">Skills</a> |
-            <a href="#contact">Contact</a>
-        </font>
+
+<header id="head_id">
+    <h1><i>Welcome to Rifa's Portfolio</i></h1>
+    <hr>
+    <nav id="nav_id">
+        <a href="#about">About</a> |
+        <a href="#skills">Skills</a> |
+        <a href="#contact">Contact</a>
     </nav>
 </header>
 
-    <br><br>
-    <main>
-        <aside align="center">
-        <img src="rifa.jpg" border="2" style="width:250px; height:300px; border-radius:20px;">
-        </aside>
+<main id="main_id">
+    <aside id="aside_id">
+        <img src="rifa.jpg">
+    </aside>
 
-        <br><br><br>
-        <article>
-            <fieldset >
-                <legend align="center"><font color="brown"><b>ABOUT SECTION:</b></font></legend>
-            <div id = "about" >
-                <p>I am an enthusiastic and keen learner with experience in Java, Python, C++ and C programming languages. <br>
-                    With a strong foundation in coding, I have developed a keen ability to approach problems with critical thinking, producing
-                    clean and efficient solutions.<br> 
-                    My communication skills enable me to work effectively within teams, and my adaptability
-                    ensures that I thrive in dynamic, fast-paced environments. <br>  
-                    I am now seeking exciting and challenging opportunities where 
-                    I can leverage my technical skills and problem-solving abilities to contribute to innovative projects.</p>
-                    <h4>Access all my projects through below links:</h4>
-                    <a href="https://github.com/Rifa123-nandoliya" target="_blank">Github profile</a><br>
-                    <a href="www.linkedin.com/in/rifa-nandoliya-a60448353" target="_blank">LinkedIn profile</a>
+    <article id="article_id">
+        <fieldset>
+            <legend><b>ABOUT SECTION:</b></legend>
+            <div id="about">
+                <p>
+                    I am an enthusiastic and keen learner with experience in Java, Python, C++ and C programming languages.
+                </p>
+                <a href="https://github.com/Rifa123-nandoliya" target="_blank">Github profile</a><br>
+                <a href="https://www.linkedin.com/in/rifa-nandoliya-a60448353" target="_blank">LinkedIn profile</a>
             </div>
-            </fieldset>
-            <br><br><br>
-            <fieldset bgcolor="#ffffff">
-                <legend align="center"><font color="brown"><b>SKILLS SECTION:</b></font></legend>
+        </fieldset>
 
-            <div id = "skills">
-                <h3>Some of my skills include:</h3>
-                <ul style="list-style-type: square;">
-                <li>Frontend developer with hands on experience in HTML, CSS, JavaScript and React</li>
-                <li>C programming</li>
-                <li>Python</li>
-                <li>C++ (DSA in progress)</li>
-                <li>Backend developer: Node.js and Express.js</li>
-                <li>MySQL</li>
-                <li>MongoDB</li>
-                <li>Java</li>
+        <fieldset>
+            <legend><b>SKILLS SECTION:</b></legend>
+            <div id="skills">
+                <ul>
+                    <li>Frontend developer (HTML, CSS, JS, React)</li>
+                    <li>C Programming</li>
+                    <li>Python</li>
+                    <li>C++ (DSA in progress)</li>
+                    <li>Node.js & Express.js</li>
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
+                    <li>Java</li>
                 </ul>
             </div>
-            </fieldset>
-            <br><br><br>
-            <fieldset bgcolor="#ffffff">
-                <legend align="center"><font color="brown"><b>CONTACT SECTION:</b></font></legend>
-            <div id = "contact">
-                <div>Contact me : 9321618272</div>
-                <h4>For more queries fill the below form:</h4>
+        </fieldset>
+
+        <fieldset>
+            <legend><b>CONTACT SECTION:</b></legend>
+            <div id="contact">
                 <form action="https://formspree.io/f/xnjjnakv" method="post">
-<table>
-<tr>
-<td>Name:</td>
-<td><input type="text" name="name" placeholder="Enter your name"></td>
-</tr>
-
-<tr>
-<td>Email:</td>
-<td><input type="email" name="email" placeholder="Enter your email"></td>
-</tr>
-
-<tr>
-<td>Phone:</td>
-<td><input type="tel" name="contact" placeholder="Enter your phone no."></td>
-</tr>
-
-<tr>
-<td>Queries:</td>
-<td><textarea name="comments" cols="25" rows="5"></textarea></td>
-</tr>
-
-<tr>
-<td colspan="2" align="center">
-<button type="submit">Send</button>
-</td>
-</tr>
-</table>
-</form>
-
+                    <input type="text" name="name" placeholder="Name"><br>
+                    <input type="email" name="email" placeholder="Email"><br>
+                    <input type="tel" name="contact" placeholder="Phone"><br>
+                    <textarea name="comments" placeholder="Queries"></textarea><br>
+                    <button type="submit">Send</button>
+                </form>
             </div>
-            </fieldset>
-        </article>
-    </main>
-    <footer align="center">
-    <hr>
-    <font size="3">© 2026 Rifa Nandoliya | All Rights Reserved</font>
-    </footer>
+        </fieldset>
+    </article>
+</main>
 
+<footer id="footer_id">
+    © 2026 Rifa Nandoliya | All Rights Reserved
+</footer>
 
 </body>
 </html>
